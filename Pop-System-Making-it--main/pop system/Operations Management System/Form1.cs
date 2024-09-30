@@ -27,7 +27,9 @@ namespace Operations_Management_System
         
 
         // 작동 관련 변수
-        DateTime nowTime = DateTime.Now;
+        static DateTime nowTime = DateTime.Now;
+        string dateString = nowTime.ToString("yyyy-MM-dd");
+
         bool runningState;
         
         int[] OTLine = new int[4];  // 라인별 작동 가능 시간
@@ -35,6 +37,8 @@ namespace Operations_Management_System
         double[] beforePros = new double[4];  // 라인별 이전 생산량
         bool[] Rstate = new bool[4];  // 각 라인별 상태
                                       // List<Panel> panels = new List<Panel>();
+        int[] checkState = new int[4]; // 5분 전의 값 
+        int check = 0;
 
         System.Windows.Forms.Label[] LOptime = new System.Windows.Forms.Label[4];
         System.Windows.Forms.Label[] LineUpTime = new System.Windows.Forms.Label[4];
@@ -74,22 +78,30 @@ namespace Operations_Management_System
             // 2. 최근 기록이 현재시간 기준 5분 이상이 흘렀으면 작동 중지
         }
 
-        public void deleteData()
+        public void delete_addData()
         {
 
             // 오늘 날짜와 다른 데이터는 삭제하기!
-
             string P_sqldel = $"delete from Production_Line_Status where EntryDate != '{nowTime.ToString("yyyy-MM-dd")}'";
             string C_sqldel = $"delete from Com_Data where EntryDate != '{nowTime.ToString("yyyy-MM-dd")}'";
 
             DB.SetData(P_sqldel);
             DB.SetData(C_sqldel);
+            // 초기화
+            for (int i=0; i<4; i++)
+            {
+                string P_sqladd = $"insert into Production_Line_Status values ('Line{i+1}', 0, '{dateString}', '00:00:00')";
+                DB.SetData(P_sqladd);
+
+            }
+            string C_sqladd = $"insert into Com_Data values (0, 0, '{dateString}', '00:00:00')";
+            DB.SetData(C_sqladd);
         }
 
 
 
         // 돌아가는 상태 점검 후 색상 표시
-        public void changeStatebar(int i)
+        public void changeStatebar(int i, bool check = false)
         {
             if (Rstate[i])
             {
@@ -98,20 +110,58 @@ namespace Operations_Management_System
                     case 0:
                         Line1bar.BackColor = Color.Green;
                         button1.BackColor = Color.Green;
+                        if (check)
+                        {
+                            button1.Text = $"{i + 1}Line\n운행 지연";
+                            button1.BackColor = Color.OrangeRed;
+
+                        }
+                        else
+                        {
+                            button1.Text = $"{i+1}Line\n운행 중";
+                        }
                         break;
                     case 1:
                         Line2bar.BackColor = Color.Green;
                         button2.BackColor = Color.Green;
+                        if (check)
+                        {
+                            button2.Text = $"{i + 1}Line\n운행 지연";
+                            button2.BackColor = Color.OrangeRed;
 
+                        }
+                        else
+                        {
+                            button2.Text = $"{i + 1}Line\n운행 중";
+                        }
                         break;
                     case 2:
                         Line3bar.BackColor = Color.Green;
                         button3.BackColor = Color.Green;
+                        if (check)
+                        {
+                            button3.Text = $"{i + 1}Line\n운행 지연";
+                            button3.BackColor = Color.OrangeRed;
 
+                        }
+                        else
+                        {
+                            button3.Text = $"{i + 1}Line\n운행 중";
+                        }
                         break;
                     case 3:
                         Line4bar.BackColor = Color.Green;
                         button4.BackColor = Color.Green;
+                        if (check)
+                        {
+                            button4.Text = $"{i + 1}Line\n운행 지연";
+                            button4.BackColor = Color.OrangeRed;
+
+                        }
+                        else
+                        {
+                            button4.Text = $"{i + 1}Line\n운행 중";
+                        }
                         break;
                 }
             
@@ -123,18 +173,24 @@ namespace Operations_Management_System
                     case 0:
                         Line1bar.BackColor = Color.Maroon;
                         button1.BackColor = Color.Maroon;
+                        button1.Text = $"{i + 1}Line\n정지";
                         break;
                     case 1:
                         Line2bar.BackColor = Color.Maroon;
                         button2.BackColor = Color.Maroon;
+                        button2.Text = $"{i + 1}Line\n정지";
+
                         break;
                     case 2:
                         Line3bar.BackColor = Color.Maroon;
                         button3.BackColor = Color.Maroon;
+                        button3.Text = $"{i + 1}Line\n정지";
+
                         break;
                     case 3:
                         Line4bar.BackColor = Color.Maroon;
                         button4.BackColor = Color.Maroon;
+                        button4.Text = $"{i + 1}Line\n정지";
                         break;
                 }
             }
@@ -170,8 +226,11 @@ namespace Operations_Management_System
         public void startSystem()  // 초기값으로 설정하기(미완)
         {
             // 오늘 날짜와 다른 데이터는 삭제하기!
+            if (MessageBox.Show("데이터를 초기화 하시겠습니까?", "데이터 초기화", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+            {
+                delete_addData();
+            }
 
-            deleteData();
             LineUpTime[0]=label18;
             LineUpTime[1] = label20;
             LineUpTime[2] = label22;
@@ -188,12 +247,13 @@ namespace Operations_Management_System
             LOptime[3] = OtaFour;
 
 
+            string target_qry = "select * from Production_Targets";
 
 
             // 라인별 목표 생산량, 작동 가능 시간
             for (int i = 0; i < 4; i++)
             {
-
+                checkState[i] = 0;
                 beforePros[i] = 0;
 
                 string sql = $"select Top 1 T.targetproduction, T.OperatingTimeAvailable from production_targets as T inner join production_line_status as L on T.LineID = L.LineID where T.Lineid = 'line{i+1}' order by L.actualproduction desc";
@@ -201,7 +261,6 @@ namespace Operations_Management_System
                 ds = DB.GetData(sql);
                 TargetPoint[i] = (int)ds.Tables[0].Rows[0][0];
                 OTLine[i] = (int)ds.Tables[0].Rows[0][1];
-                beforePros[i] = 0;
                 Rstate[i] = false;
 
                 changeStatebar(i);
@@ -238,6 +297,7 @@ namespace Operations_Management_System
             RateTimeChart.ChartAreas[0].AxisX.Minimum = 0;
             RateTimeChart.ChartAreas[0].AxisX.Maximum = 6;
             RateTimeChart.ChartAreas[0].AxisY.Maximum = 100;
+            RateTimeChart.ChartAreas[0].AxisY.Minimum = 0;
 
 
         }
@@ -270,7 +330,7 @@ namespace Operations_Management_System
                 string sql2 = $"select TOP 1 ActualProduction, EntryDate from Production_Line_Status where LineID = 'Line{i+1}' order by Entrytime DESC";
 
                 // 작동 시간
-                string sql3 = $"select min(Entrytime) as star, max(Entrytime) as cur  from Production_Line_Status where LineID = 'Line{i+1}' group by LineID";
+                string sql3 = $"select min(Entrytime) as star, max(Entrytime) as cur  from Production_Line_Status where LineID = 'Line{i+1}' and ActualProduction != 0 group by LineID";
 
 
                 // 생산량(차이) 가져오기
@@ -278,13 +338,12 @@ namespace Operations_Management_System
                 PerformChart.Invalidate();
 
 
+
                 // 작동시간 비교
                 // 누적 돌아간 시간을 저장해야한다!
                 Opertime(sql3, i, currentTime);
 
             }
-
-
 
             total = beforePros[0] + beforePros[1] + beforePros[2] + beforePros[3];
 
@@ -316,6 +375,15 @@ namespace Operations_Management_System
                 }
             }
 
+
+
+            // 1분 마다 운행 중인지 검사
+            if (check == 0 || check == 7)
+            {
+                operationState();
+                check = 1;
+            }
+            check++;
 
         }
 
@@ -359,24 +427,43 @@ namespace Operations_Management_System
         // 중간에 중지하는 기능 => 따로 돌아간 시간을 저장해야함
         public void Opertime(string sql, int i, TimeSpan currentTime)
         {
+
+
+            // 최소 2개의 데이터가 쌓여야 측정하게
             ds = DB.GetData(sql);
 
-            TimeSpan sTime = (TimeSpan)ds.Tables[0].Rows[0][0];  // 이전
-            TimeSpan ctTime = (TimeSpan)ds.Tables[0].Rows[0][1];  // 최근
-            TimeSpan time = timeGap(sTime, ctTime);
+            try {
+                TimeSpan sTime = (TimeSpan)ds.Tables[0].Rows[0][0];  // 처음 -> 00:00:00
+
+                TimeSpan ctTime = (TimeSpan)ds.Tables[0].Rows[0][1];  // 최근
+                TimeSpan time = timeGap(sTime, ctTime);
 
 
-            int val = Math.Max(0, Math.Min((int)(time.TotalSeconds * 100 / TimeSpan.FromHours(OTLine[i]).TotalSeconds), 100));
-            LineUpTime[i].Text = val.ToString() + "%";
-            progress[i].Value = val;
+                int val = Math.Max(0, Math.Min((int)(time.TotalSeconds * 100 / TimeSpan.FromHours(OTLine[i]).TotalSeconds), 100));
+                LineUpTime[i].Text = val.ToString() + "%";
+                progress[i].Value = val;
 
-            RateTimeChart.Series[i].Points.AddXY(nowTime.ToString("HH:mm:ss"), val);
+                RateTimeChart.Series[i].Points.AddXY(nowTime.ToString("HH:mm:ss"), val);
 
-            if (RateTimeChart.Series[i].Points.Count == 6)
-            {
-                RateTimeChart.Series[i].Points.RemoveAt(0);
+                if (RateTimeChart.Series[i].Points.Count == 6)
+                {
+                    RateTimeChart.Series[i].Points.RemoveAt(0);
+                }
+
             }
+            catch(Exception ex) {
+                LineUpTime[i].Text = "0%";
+                progress[i].Value = 0;
 
+                RateTimeChart.Series[i].Points.AddXY(nowTime.ToString("HH:mm:ss"), 0);
+
+                if (RateTimeChart.Series[i].Points.Count == 6)
+                {
+                    RateTimeChart.Series[i].Points.RemoveAt(0);
+                }
+
+
+            }
 
         }
 
@@ -479,7 +566,12 @@ namespace Operations_Management_System
             ds = DB.GetData(sql);
 
             int currentVal = (int)ds.Tables[0].Rows[0][0];
-            
+
+            if (currentVal != 0)
+            {
+                Rstate[i] = true;
+            }
+
             double Val = currentVal - beforePros[i];
 
             beforePros[i] = currentVal;
@@ -491,5 +583,26 @@ namespace Operations_Management_System
 
 
         }
+
+        // 운행중 표기
+        public void operationState()
+        {
+            // 현재 값이랑 비교
+            for (int i=0; i<4; i++)
+            {
+                if (beforePros[i] == checkState[i])
+                {
+                    changeStatebar(i, true);
+                }
+                else
+                {
+                    changeStatebar(i);
+                }
+
+                checkState[i] = (int)beforePros[i];
+            }
+        }
+
+
     }
 }

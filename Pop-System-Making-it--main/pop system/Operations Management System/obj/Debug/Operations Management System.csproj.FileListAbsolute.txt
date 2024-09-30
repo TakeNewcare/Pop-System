@@ -26,3 +26,17 @@ C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Manageme
 C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operatio.9A648FB1.Up2Date
 C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.exe
 C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.exe.config
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\CircularProgressBar.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\WinFormAnimation.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\CircularProgressBar.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations_Management_System.Form1.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations_Management_System.Properties.Resources.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operatio.9A648FB1.Up2Date
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.pdb
