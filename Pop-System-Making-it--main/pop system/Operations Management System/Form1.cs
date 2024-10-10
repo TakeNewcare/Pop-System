@@ -320,7 +320,7 @@ namespace Operations_Management_System
             TimeSpan currentTime = nowTime.TimeOfDay;
 
             // 온습도
-            string sql1 = "select top 1 Temperature, Humidity from Com_Data order by EntryDate Desc";
+            string sql1 = "select top 1 Temperature, Humidity from Com_Data order by Entrytime Desc";
             THSearch(sql1);
 
 
