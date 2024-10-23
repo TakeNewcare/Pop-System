@@ -80,8 +80,6 @@ void loop()
   senddata[2] = (byte)((h*100)/256); // 습도
   senddata[3] = (byte)(((int)h*100)%256);
   Serial.write(senddata, 4);
-
-
   
   if(Serial.available() >= 4){
 
@@ -105,8 +103,6 @@ void loop()
       lcd.print(t);
       lcd.print("'C");
       
-      
-
 
       lcd.setCursor(0,1);   // 열, 행 설정
       lcd.write(2);
