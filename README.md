@@ -17,8 +17,9 @@
 
 
 <br>
-참고 이미지 : https://minesweeper.online/ko/
-<br><br>
+참고 이미지
+<img src = "https://private-user-images.githubusercontent.com/163362484/379810773-a67f1f25-e7db-4d41-abdd-f346f05e0e4d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3ODQ4MzIsIm5iZiI6MTcyOTc4NDUzMiwicGF0aCI6Ii8xNjMzNjI0ODQvMzc5ODEwNzczLWE2N2YxZjI1LWU3ZGItNGQ0MS1hYmRkLWYzNDZmMDVlMGU0ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxNTQyMTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NzJlMWI3ZWY1NzBkOTY3MDJiZGVmY2Y4MGExMTc5YTBiYTlmYWFkMjIwYjc0NWJiYTJkNGZlNjlkYjgxYzRiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.vdrqJApVctlpahbXZn57fCFVFYBCSUFpFA8InjAs-jU" width="150"></img>
+<br>
 Reason for making : C#(winform) and Aduino <br>
 Busan Polytechnic High-Tech Course <br>
 <br>
