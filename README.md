@@ -4,7 +4,7 @@
 <br>
 
 <p align="center">
-  <img src = "https://private-user-images.githubusercontent.com/163362484/379770569-2952a79b-c642-4463-916c-f12afd4459ba.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3NzM5NjAsIm5iZiI6MTcyOTc3MzY2MCwicGF0aCI6Ii8xNjMzNjI0ODQvMzc5NzcwNTY5LTI5NTJhNzliLWM2NDItNDQ2My05MTZjLWYxMmFmZDQ0NTliYS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxMjQxMDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hYzk3NzBlODAwNGUzOWVkZmVhZGUxOGY2MjM1NWY0MDI4NzlmZTQyZmI4MWVhNzIwOGJiNjk1Mjk4ZjY2YTIxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.M5clFxEdDtxd_ES3UbQgbUtXkxTmFIRv-5Q74XN36ks" width="70%"></img>
+  <img src="https://github.com/user-attachments/assets/32f4564c-c945-4606-a887-207be60e5711" width="500px">
 </p>
 
 
@@ -17,8 +17,9 @@
 
 
 <br>
-참고 이미지
-<img src = "https://private-user-images.githubusercontent.com/163362484/379810773-a67f1f25-e7db-4d41-abdd-f346f05e0e4d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3ODQ4MzIsIm5iZiI6MTcyOTc4NDUzMiwicGF0aCI6Ii8xNjMzNjI0ODQvMzc5ODEwNzczLWE2N2YxZjI1LWU3ZGItNGQ0MS1hYmRkLWYzNDZmMDVlMGU0ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxNTQyMTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NzJlMWI3ZWY1NzBkOTY3MDJiZGVmY2Y4MGExMTc5YTBiYTlmYWFkMjIwYjc0NWJiYTJkNGZlNjlkYjgxYzRiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.vdrqJApVctlpahbXZn57fCFVFYBCSUFpFA8InjAs-jU" width="150"></img>
+참고 이미지<br>
+<img src="https://github.com/user-attachments/assets/10aee911-5127-4245-abae-a9ff09cca94d" width="200px">
+<br>
 <br>
 Reason for making : C#(winform) and Aduino <br>
 Busan Polytechnic High-Tech Course <br>
@@ -43,7 +44,7 @@ https://www.youtube.com/watch?v=3LlXWkyenTc
     </td>
   </tr>
   <tr>
-    <td><img src = "https://private-user-images.githubusercontent.com/163362484/379811855-ebddfb0c-f5ef-4350-900b-d79a59c28ff6.JPG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3ODIzMzAsIm5iZiI6MTcyOTc4MjAzMCwicGF0aCI6Ii8xNjMzNjI0ODQvMzc5ODExODU1LWViZGRmYjBjLWY1ZWYtNDM1MC05MDBiLWQ3OWE1OWMyOGZmNi5KUEc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxNTAwMzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MjdkNmZkMjViOTI4NTFlYzE4ZmE0NWEwYWMzNDU0ZDQwMWQ1YzUwMzdlNDJjYTcxZGVlNzFiMWY1Y2RhOGU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.u3eAPYlesoJQNVYoTRWIlmDRzSOTxfDA-RBydMJZ9ac" width="150"></img></td>
+    <td><img src="https://github.com/user-attachments/assets/ea956d90-eef8-44be-ae66-054517fdd8da" width="200px"></td>
   </tr>
   <tr>
     <td align='center'>wlsdud1525@naver.com</td>
@@ -65,12 +66,17 @@ https://www.youtube.com/watch?v=3LlXWkyenTc
 ### 화면 구성
 |화면|설명|
 |:---:|:---|
-|<img src = "https://private-user-images.githubusercontent.com/163362484/379810453-8c116868-e157-4ec0-88b9-1470f08da959.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3ODI0NTAsIm5iZiI6MTcyOTc4MjE1MCwicGF0aCI6Ii8xNjMzNjI0ODQvMzc5ODEwNDUzLThjMTE2ODY4LWUxNTctNGVjMC04OGI5LTE0NzBmMDhkYTk1OS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxNTAyMzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZjhhMDhjNWFhZjhlZjdjYzdkNGIyMTg1MjdlZTUwNmMxOThmNDYzOTUyOThhN2ViMzQyZDg0MGQ3ZTZhYWU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.1EaA68ywUCm1FMSs_7psO2XM98SFKwzB4ZWmWPNinXM" width="500px"></img>|<br> 생산라인 1개를 실제 현장처럼 구현하여 데이터를 수집하는 장소를 만들었습니다.<br>2개의 아두이노를 사용하였으며 한 대의 아두이노에 DHT22와 LCD를 연결하여<br>온습도를 측정함과 동시에 LCD 화면으로 출력 및 10초 마다 시리얼 통신을 해 주었습니다.<br><br>다른 한 대의 아두이노는 HC-SR04를 연결하여 생산라인의 컨베이어를 통해 초음파 센서를 지나가면 송수신 거리를 측정하여 8cm 미만의 거리로 측정될 시에만 생산량을 늘려주었습니다. 전송된 데이터는 아래의 화면 시스템에서 수신됩니다.<br><br>|
-|<img src = "https://private-user-images.githubusercontent.com/163362484/379814396-0df0df9e-bed6-4659-a13f-b8eb6d4b5e0d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3ODI1NjcsIm5iZiI6MTcyOTc4MjI2NywicGF0aCI6Ii8xNjMzNjI0ODQvMzc5ODE0Mzk2LTBkZjBkZjllLWJlZDYtNDY1OS1hMTNmLWI4ZWI2ZDRiNWUwZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxNTA0MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNWI5YzBjYzJhZGUwNTZmYzJkNDFjZTM3MmM2M2IzYjI0NzgzYTgyMWVjZTBhMGZhNmVkZjQwMzU3NjE0ZGI3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Td1RUSmIO_ICPHFB2eU69kc5ZOr8LzA5Y118Aw-GkIw" width="500px"></img>|<br> 해당 화면은 데이터를 수집하여 DB(MSSQL)로 전송하는 역할을 합니다. 각 라인별 생산 버튼을 통해 직접적으로 생산량을 올려 줄 수 있는 기능을 포함하고 있습니다.<br><br> ※ 해당 화면을 만든 이유 : 초음파 센서를 활용하기 전 POP 시스템이 주 컨텐츠여서 단순하게 버튼으로 생산량을 올릴 계획이었지만 프로젝트를 진행하고 알아가면서 좀 더 붙여보고 싶어져 만들어진 화면입니다.<br><br>|
-|<img src = "https://private-user-images.githubusercontent.com/163362484/379815076-41cd0b2e-6147-4100-bf18-77681bf11fdf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3ODI1MDcsIm5iZiI6MTcyOTc4MjIwNywicGF0aCI6Ii8xNjMzNjI0ODQvMzc5ODE1MDc2LTQxY2QwYjJlLTYxNDctNDEwMC1iZjE4LTc3NjgxYmYxMWZkZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxNTAzMjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jM2ExZGZlYTg3NzY5YTc4YmRmMzU1ZThiMWNmOGZlNDYxMDgxNmY4ZGEzNTgwNTY2MWRhZDFkMWM4NzAzZmI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Mn8chTk4Rf95I8xFU0azBG4IuYtTJB4Kz9yZzp7jXrg" width="800px"></img>|<br> 이번 프로젝트의 주 컨텐츠인 POP SYSTEM 화면입니다.<br>저장된 DB의 데이터를 이용하여 각 라인별 생산목표, 생산량, 작동 시간, 온습도 등의 자료를 활용하여 라인별 달성률, 작동률, 작동 상태 그리고 전체 생산량 기준 라인별 생산비율 등의 그래프를 표현하였습니다.<br><br> 작동 상태는 생산량이 0인 경우 정지, 지정한 시간 동안 생산량에 변화가 없을 경우 생산 지연 그리고 정상적으로 생산되는 상태일 때는 생산 중 3가지 상태로 나누어 빨간색, 주황색, 초록생으로 나누어 표현하였습니다.<br><br>※ winform을 통한 그래프 작업이 처음이었기에 코드를 작성하는 시간보다 그래프를 설정하고 데이터를 만지는 시간이 더 길었던 것 같습니다. <br>|
+|<img src="https://github.com/user-attachments/assets/155e800f-db1e-4e8f-92ab-afe825d35838" width="400px">|<br> 생산라인 1개를 실제 현장처럼 구현하여 데이터를 수집하는 장소를 만들었습니다.<br>2개의 아두이노를 사용하였으며 한 대의 아두이노에 DHT22와 LCD를 연결하여<br>온습도를 측정함과 동시에 LCD 화면으로 출력 및 10초 마다 시리얼 통신을 해 주었습니다.<br><br>다른 한 대의 아두이노는 HC-SR04를 연결하여 생산라인의 컨베이어를 통해 초음파 센서를 지나가면 송수신 거리를 측정하여 8cm 미만의 거리로 측정될 시에만 생산량을 늘려주었습니다. 전송된 데이터는 아래의 화면 시스템에서 수신됩니다.<br><br>|
+|<img src = "https://github.com/user-attachments/assets/cd4d3ea9-abf0-4b8b-af1b-c688f21ef8f9" width="500px"></img>|<br> 해당 화면은 데이터를 수집하여 DB(MSSQL)로 전송하는 역할을 합니다. 각 라인별 생산 버튼을 통해 직접적으로 생산량을 올려 줄 수 있는 기능을 포함하고 있습니다.<br><br> ※ 해당 화면을 만든 이유 : 초음파 센서를 활용하기 전 POP 시스템이 주 컨텐츠여서 단순하게 버튼으로 생산량을 올릴 계획이었지만 프로젝트를 진행하고 알아가면서 좀 더 붙여보고 싶어져 만들어진 화면입니다.<br><br>|
+|<img src = "https://github.com/user-attachments/assets/32f4564c-c945-4606-a887-207be60e5711" width="800px"></img>|<br> 이번 프로젝트의 주 컨텐츠인 POP SYSTEM 화면입니다.<br>저장된 DB의 데이터를 이용하여 각 라인별 생산목표, 생산량, 작동 시간, 온습도 등의 자료를 활용하여 라인별 달성률, 작동률, 작동 상태 그리고 전체 생산량 기준 라인별 생산비율 등의 그래프를 표현하였습니다.<br><br> 작동 상태는 생산량이 0인 경우 정지, 지정한 시간 동안 생산량에 변화가 없을 경우 생산 지연 그리고 정상적으로 생산되는 상태일 때는 생산 중 3가지 상태로 나누어 빨간색, 주황색, 초록생으로 나누어 표현하였습니다.<br><br>※ winform을 통한 그래프 작업이 처음이었기에 코드를 작성하는 시간보다 그래프를 설정하고 데이터를 만지는 시간이 더 길었던 것 같습니다. <br>|
+|<img src = "https://github.com/user-attachments/assets/20348a29-60a3-4305-a64b-54070a3f5cd8" width="800px"></img>|<br> 전체 사진 <br>|
+|<img src = "https://github.com/user-attachments/assets/f640a7ac-bd24-4db6-9ce5-cae834c2e942" width="800px"></img>|<br> 프로젝프 발표회 사진 <br>|
 
+<br>
+<br>
 
 ## 아쉬운 점 및 개선점
 - Open CV 기술
 현재 생산량 증가는 초음파 센서를 이용한 단편적인 측정에 그치기 때문에 OpenCV를 활용하여 생산품의 모양 및 바코드 등을 인식하여 생산량을 늘리는 시스템을 구축할 계획입니다.
 
+<br>
