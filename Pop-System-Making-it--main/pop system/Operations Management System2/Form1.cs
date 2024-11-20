@@ -17,12 +17,16 @@ using OpenCvSharp.Extensions;
 using static System.Windows.Forms.AxHost;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
+using System.Windows.Shapes;
+using System.Windows.Controls.Primitives;
+using System.Windows.Controls;
+using System.Web.UI.WebControls;
 
 
 
 namespace Operations_Management_System
 {
-    
+
     public partial class Form1 : Form
     {
         DBServer DB = new DBServer();
@@ -30,11 +34,13 @@ namespace Operations_Management_System
         VideoCapture video;
         Thread thread;
 
+        
 
 
         // 작동 관련 변수
         static DateTime nowTime = DateTime.Now;
         string dateString = nowTime.ToString("yyyy-MM-dd");
+        int yearMonth = nowTime.Year * 100 + nowTime.Month;
 
         bool runningState;
         
@@ -45,6 +51,7 @@ namespace Operations_Management_System
                                       // List<Panel> panels = new List<Panel>();
         int[] checkState = new int[4]; // 5분 전의 값 
         int check = 0;
+
 
         System.Windows.Forms.Label[] LOptime = new System.Windows.Forms.Label[4];
         System.Windows.Forms.Label[] LineUpTime = new System.Windows.Forms.Label[4];
@@ -61,43 +68,11 @@ namespace Operations_Management_System
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private async void Form1_Load(object sender, EventArgs e)
         {
+            startSystem();   // 초기값
 
-
-            startSystem();   // 초기값으로 설정해라 => 바꾸기
-
-            // 3. 0번 카메라를 연결
-            //VideoCapture video = new VideoCapture(1);
-            //if (video.IsOpened())
-            //{
-            //    // 4. 카메라 연결이 되었으면 타이머 시작
-            //    timer2.Start();
-            //}
-
-
-            for (int i = 0; i < 5; i++)
-            {
-                try {
-                    
-                    video = new VideoCapture(i);
-                
-                }
-                catch(Exception ex) {
-                
-                    continue;
-                }
-                if (video.IsOpened())
-                {
-                    // 카메라가 열렸을 경우
-                   // MessageBox.Show($"카메라 {i}가 열렸습니다.");
-                    timer2.Start();
-                    break; // 성공하면 루프 종료
-                }
-            }
-
-
-
+            await ConnectCamera();
 
             timer1.Interval = 5000;
             timer1.Start();
@@ -105,20 +80,44 @@ namespace Operations_Management_System
         }
 
 
-
-        // 작동하는지 체크(미완)
-        public void isrunning()
+        private async Task ConnectCamera()
         {
-            // 1. 일정한 시간 간격으로 돌아가는거 체크하여 상태 변화
-            //if (beforeDate.Substring(0, 10) == nowTime.Substring(0,10))
-            //    runningState = true;
-            //else
-            //{
-            //    runningState = false;
-            //}
+            bool cameraCon = false;
 
-            // 2. 최근 기록이 현재시간 기준 5분 이상이 흘렀으면 작동 중지
+            // 카메라가 1개만 연결되어있고 몇번인지 모를 경우
+            for (int i = 0; i < 5; i++)
+            {
+                try
+                {
+                    video = new VideoCapture(i);
+                    if (video.IsOpened())
+                    {
+                        cameraCon = true;
+                        break;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    continue;
+                }
+            }
+
+
+            if (cameraCon)
+            {
+                await Task.Run(() =>
+                {
+                    timer2.Start();
+                });
+
+            }
+            else
+            {
+                MessageBox.Show("카메라 연결 실패!");
+            }
+
         }
+
 
         public void delete_addData()
         {
@@ -127,8 +126,25 @@ namespace Operations_Management_System
             string P_sqldel = $"delete from Production_Line_Status where EntryDate != '{nowTime.ToString("yyyy-MM-dd")}'";
             string C_sqldel = $"delete from Com_Data where EntryDate != '{nowTime.ToString("yyyy-MM-dd")}'";
 
+            // 달이 다르면 지우기
+            string T_sqldel = $"delete from Total_pro where EntryDate != {yearMonth}";
+
+            // 처음 초기화 시 날짜를 현재 날짜로 설정
+            string T_date_sqlup = $"update Total_pro set EntryDate = {yearMonth} where EntryDate != {yearMonth}";
+
+            // 날짜가 바뀌면 합치기
+            string T_sqlup = $"update Total_pro set Line1 = Line1 + {beforePros[0]}, Line2 = Line2 + {beforePros[1]}, Line3 = Line3 + {beforePros[2]}, Line4 = Line4 + {beforePros[3]}, EntryDate = {yearMonth} where EntryDate != {yearMonth}";
+            // Total_pro
+
+            DB.SetData(T_sqlup);
+
             int a = DB.SetData(P_sqldel);
             DB.SetData(C_sqldel);
+
+            DB.SetData(T_date_sqlup);
+
+
+            DB.SetData(T_sqldel);
             // 초기화
 
             if (a != 0)
@@ -148,137 +164,62 @@ namespace Operations_Management_System
 
 
         // 돌아가는 상태 점검 후 색상 표시
-        public void changeStatebar(int i, bool check = false)
+        public void changeStatebar(int i, bool isRunning = true) // isru -> 운행중 or 지연
         {
-            if (Rstate[i])
+            Color bgColor = isRunning ? Color.Green : Color.Orange;
+            string statusText = isRunning ? $"{i + 1}번 Line\n운행 중" : $"{i + 1}번 Line\n지연";
+
+            if (!Rstate[i])
             {
-                switch (i)
-                {
-                    case 0:
-                        Line1bar.BackColor = Color.Green;
-                        button1.BackColor = Color.Green;
-                        if (check)
-                        {
-                            button1.Text = $"{i + 1}Line\n운행 지연";
-                            button1.BackColor = Color.OrangeRed;
-                            Line1bar.BackColor= Color.OrangeRed;
-
-                        }
-                        else
-                        {
-                            button1.Text = $"{i+1}Line\n운행 중";
-                        }
-                        break;
-                    case 1:
-                        Line2bar.BackColor = Color.Green;
-                        button2.BackColor = Color.Green;
-                        if (check)
-                        {
-                            button2.Text = $"{i + 1}Line\n운행 지연";
-                            button2.BackColor = Color.OrangeRed;
-                            Line2bar.BackColor = Color.OrangeRed;
-
-
-                        }
-                        else
-                        {
-                            button2.Text = $"{i + 1}Line\n운행 중";
-                        }
-                        break;
-                    case 2:
-                        Line3bar.BackColor = Color.Green;
-                        button3.BackColor = Color.Green;
-                        if (check)
-                        {
-                            button3.Text = $"{i + 1}Line\n운행 지연";
-                            button3.BackColor = Color.OrangeRed;
-                            Line3bar.BackColor = Color.OrangeRed;
-
-
-                        }
-                        else
-                        {
-                            button3.Text = $"{i + 1}Line\n운행 중";
-                        }
-                        break;
-                    case 3:
-                        Line4bar.BackColor = Color.Green;
-                        button4.BackColor = Color.Green;
-                        if (check)
-                        {
-                            button4.Text = $"{i + 1}Line\n운행 지연";
-                            button4.BackColor = Color.OrangeRed;
-                            Line4bar.BackColor = Color.OrangeRed;
-
-
-                        }
-                        else
-                        {
-                            button4.Text = $"{i + 1}Line\n운행 중";
-                        }
-                        break;
-                }
-            
+                 bgColor = Color.Maroon;
+                 statusText = $"{i + 1}번 Line\n운행 정지";
             }
-            else
-            {
-                switch (i)
-                {
-                    case 0:
-                        Line1bar.BackColor = Color.Maroon;
-                        button1.BackColor = Color.Maroon;
-                        button1.Text = $"{i + 1}Line\n정지";
-                        break;
-                    case 1:
-                        Line2bar.BackColor = Color.Maroon;
-                        button2.BackColor = Color.Maroon;
-                        button2.Text = $"{i + 1}Line\n정지";
 
-                        break;
-                    case 2:
-                        Line3bar.BackColor = Color.Maroon;
-                        button3.BackColor = Color.Maroon;
-                        button3.Text = $"{i + 1}Line\n정지";
-
-                        break;
-                    case 3:
-                        Line4bar.BackColor = Color.Maroon;
-                        button4.BackColor = Color.Maroon;
-                        button4.Text = $"{i + 1}Line\n정지";
-                        break;
-                }
-            }
-        }
-
-        // 변동사항 라벨에 표시
-        public void changeLabel(int i)
-        {
             switch (i)
             {
                 case 0:
-                    LineOneTarget.Text = TargetPoint[i].ToString();
-                    OtaOne.Text = beforePros[i].ToString();
+                    Line1bar.BackColor = bgColor;
+                    button1.BackColor = bgColor;
+                    button1.Text = statusText;
                     break;
                 case 1:
-                    LineTwoTarget.Text = TargetPoint[i].ToString();
-                    OtaTwo.Text = beforePros[i].ToString();
-
+                    Line2bar.BackColor = bgColor;
+                    button2.BackColor = bgColor;
+                    button2.Text = statusText;
                     break;
                 case 2:
-                    LineThreeTarget.Text = TargetPoint[i].ToString();
-                    OtaThree.Text = beforePros[i].ToString();
-
+                    Line3bar.BackColor = bgColor;
+                    button3.BackColor = bgColor;
+                    button3.Text = statusText;
                     break;
                 case 3:
-                    LineFourTarget.Text = TargetPoint[i].ToString();
-                    OtaFour.Text = beforePros[i].ToString();
+                    Line4bar.BackColor = bgColor;
+                    button4.BackColor = bgColor;
+                    button4.Text = statusText;
                     break;
             }
+
+
         }
 
 
-        public void startSystem()  // 초기값으로 설정하기(미완)
+        
+        // 변동사항 라벨에 표시
+        public void changeLabel(System.Windows.Forms.Label lineTarget, System.Windows.Forms.Label otaText, int i)
         {
+
+            lineTarget.Text = TargetPoint[i].ToString();
+            otaText.Text = beforePros[i].ToString();
+
+        }
+
+
+        public void startSystem() 
+        {
+            var lineTargets = new System.Windows.Forms.Label[] { LineOneTarget, LineTwoTarget, LineThreeTarget, LineFourTarget };
+            var otaTexts = new System.Windows.Forms.Label[] { OtaOne, OtaTwo, OtaThree, OtaFour };
+
+
             // 오늘 날짜와 다른 데이터는 삭제하기!
             if (MessageBox.Show("데이터를 초기화 하시겠습니까?", "데이터 초기화", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
             {
@@ -315,19 +256,16 @@ namespace Operations_Management_System
                 Rstate[i] = false;
 
                 changeStatebar(i);
-                changeLabel(i);
+                changeLabel(lineTargets[i], otaTexts[i], i);
             }
 
 
-            // 라이별 실적 그래프 초기화
+            // 라dls별 실적 그래프 초기화
             int maxYvalue = TargetPoint.Max();
             PerformChart.ChartAreas[0].AxisY.Minimum = 0;
             PerformChart.ChartAreas[0].AxisY.Maximum = maxYvalue;
                         
-            PerformChart.Series[0].Points[0].YValues[0] = TargetPoint[0];
-            PerformChart.Series[0].Points[1].YValues[0] = TargetPoint[1];
-            PerformChart.Series[0].Points[2].YValues[0] = TargetPoint[2];
-            PerformChart.Series[0].Points[3].YValues[0] = TargetPoint[3];
+
 
             circularProgressBar1.Value = 0;
             circularProgressBar2.Value = 0;
@@ -350,7 +288,14 @@ namespace Operations_Management_System
             RateTimeChart.ChartAreas[0].AxisY.Maximum = 100;
             RateTimeChart.ChartAreas[0].AxisY.Minimum = 0;
 
+            // 한달 생산량
+            string sql_Total = "select * from Total_pro";
+            ds = DB.GetData(sql_Total);
 
+            PerformChart.Series[0].Points[0].YValues[0] = (int)ds.Tables[0].Rows[0][1];
+            PerformChart.Series[0].Points[1].YValues[0] = (int)ds.Tables[0].Rows[0][2];
+            PerformChart.Series[0].Points[2].YValues[0] = (int)ds.Tables[0].Rows[0][3];
+            PerformChart.Series[0].Points[3].YValues[0] = (int)ds.Tables[0].Rows[0][4];
         }
 
 
@@ -426,10 +371,7 @@ namespace Operations_Management_System
                 }
             }
 
-
-
-            // 1분 마다 운행 중인지 검사
-            if (check == 0 || check == 12)
+            if (check == 0 || check == 6)
             {
                 operationState();
                 check = 1;
@@ -581,8 +523,6 @@ namespace Operations_Management_System
                         {
                             circularProgressBar3.Value++;
                         }
-
-
                     }
                     else
                     {
@@ -616,9 +556,6 @@ namespace Operations_Management_System
                     break;
             }
 
-
-
-
         }
 
 
@@ -631,7 +568,7 @@ namespace Operations_Management_System
 
             if (currentVal != 0)
             {
-                Rstate[i] = true;
+                Rstate[i] = true;  // 데이터가 0보다 크면 운행 중 -> true
             }
 
             double Val = currentVal - beforePros[i];
@@ -654,7 +591,7 @@ namespace Operations_Management_System
             {
                 if (beforePros[i] == checkState[i])
                 {
-                    changeStatebar(i, true);
+                    changeStatebar(i, false);
                 }
                 else
                 {
@@ -677,7 +614,12 @@ namespace Operations_Management_System
             Bitmap bitmap = OpenCvSharp.Extensions.BitmapConverter.ToBitmap(mat);
 
             // 8. pictureBox1 에 bitmap 에 저장한 이미지 출력
-            pictureBox1.Image = bitmap;
+            this.Invoke(new Action(() => pictureBox1.Image = bitmap));
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

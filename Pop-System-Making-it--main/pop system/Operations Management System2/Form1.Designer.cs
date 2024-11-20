@@ -74,6 +74,7 @@ namespace Operations_Management_System
             this.panel1 = new System.Windows.Forms.Panel();
             this.Line1bar = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
@@ -282,6 +283,7 @@ namespace Operations_Management_System
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.button5);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
@@ -289,6 +291,16 @@ namespace Operations_Management_System
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1915, 100);
             this.panel4.TabIndex = 3;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(1858, 12);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(45, 32);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "x";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label7
             // 
@@ -1248,6 +1260,7 @@ namespace Operations_Management_System
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -1289,7 +1302,6 @@ namespace Operations_Management_System
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label OtaOne;
-        private System.Windows.Forms.Label LineOneTarget;
         private System.Windows.Forms.Label label3;
         private CircularProgressBar.CircularProgressBar circularProgressBar1;
         private System.Windows.Forms.Panel panel1;
@@ -1359,6 +1371,8 @@ namespace Operations_Management_System
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label LineOneTarget;
     }
 }
 

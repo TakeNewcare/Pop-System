@@ -1,0 +1,164 @@
+C:\Users\admin\Desktop\pop system\Operations Management System\bin\Debug\Operations Management System.exe.config
+C:\Users\admin\Desktop\pop system\Operations Management System\bin\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\pop system\Operations Management System\bin\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\pop system\Operations Management System\bin\Debug\CircularProgressBar.dll
+C:\Users\admin\Desktop\pop system\Operations Management System\bin\Debug\WinFormAnimation.dll
+C:\Users\admin\Desktop\pop system\Operations Management System\bin\Debug\CircularProgressBar.xml
+C:\Users\admin\Desktop\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\pop system\Operations Management System\obj\Debug\Operations_Management_System.Form1.resources
+C:\Users\admin\Desktop\pop system\Operations Management System\obj\Debug\Operations_Management_System.Properties.Resources.resources
+C:\Users\admin\Desktop\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\pop system\Operations Management System\obj\Debug\Operatio.9A648FB1.Up2Date
+C:\Users\admin\Desktop\pop system\Operations Management System\obj\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\pop system\Operations Management System\obj\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.exe.config
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\CircularProgressBar.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\WinFormAnimation.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\CircularProgressBar.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations_Management_System.Form1.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations_Management_System.Properties.Resources.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operatio.9A648FB1.Up2Date
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.exe.config
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\CircularProgressBar.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\WinFormAnimation.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\CircularProgressBar.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations_Management_System.Form1.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations_Management_System.Properties.Resources.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operatio.9A648FB1.Up2Date
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.pdb
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.exe.config
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.exe
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\Operations Management System.pdb
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\CircularProgressBar.dll
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\WinFormAnimation.dll
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\bin\Debug\CircularProgressBar.xml
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations_Management_System.Form1.resources
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations_Management_System.Properties.Resources.resources
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operatio.9A648FB1.Up2Date
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.exe
+C:\Users\admin\Downloads\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System\obj\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\Operations Management System.exe.config
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\CircularProgressBar.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\OpenCvSharp.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.Drawing.Common.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.Memory.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.ValueTuple.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\WinFormAnimation.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\CircularProgressBar.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\OpenCvSharp.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.Drawing.Common.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.Memory.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\System.ValueTuple.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\obj\Debug\Operations_Management_System.Form1.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\obj\Debug\Operations_Management_System.Properties.Resources.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\obj\Debug\Operations Management System.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\obj\Debug\Operatio.9A648FB1.Up2Date
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\obj\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\obj\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\dll\x86\opencv_videoio_ffmpeg4100.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\dll\x64\opencv_videoio_ffmpeg4100_64.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\OpenCvSharp.WpfExtensions.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\fdasfsd\pop system\Operations Management System\bin\Debug\OpenCvSharp.WpfExtensions.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\dll\x86\opencv_videoio_ffmpeg4100.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\dll\x64\opencv_videoio_ffmpeg4100_64.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\Operations Management System.exe.config
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\CircularProgressBar.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.WpfExtensions.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Drawing.Common.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Memory.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.ValueTuple.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\WinFormAnimation.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\CircularProgressBar.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.WpfExtensions.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Drawing.Common.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Memory.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.ValueTuple.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations Management System.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations_Management_System.Form1.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations_Management_System.Properties.Resources.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations Management System.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations Management System.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operatio.9A648FB1.Up2Date
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\dll\x86\opencv_videoio_ffmpeg4100.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\dll\x64\opencv_videoio_ffmpeg4100_64.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\Operations Management System.exe.config
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\Operations Management System.pdb
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\CircularProgressBar.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.WpfExtensions.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Drawing.Common.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Memory.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.ValueTuple.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\WinFormAnimation.dll
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\CircularProgressBar.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\OpenCvSharp.WpfExtensions.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Drawing.Common.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Memory.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\bin\Debug\System.ValueTuple.xml
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations Management System.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations_Management_System.Form1.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations_Management_System.Properties.Resources.resources
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations Management System.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations Management System.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operatio.9A648FB1.Up2Date
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations Management System.exe
+C:\Users\admin\Desktop\Pop-System-Making-it--main\Pop-System-Making-it--main\pop system\Operations Management System2\obj\Debug\Operations Management System.pdb
