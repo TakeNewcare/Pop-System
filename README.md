@@ -74,7 +74,7 @@ https://www.youtube.com/watch?v=3LlXWkyenTc
 <br>
 
 ## 아쉬운 점 및 개선점
-- Open CV 기술
+- Open CV 기술<br>
 현재 생산량 증가는 초음파 센서를 이용한 단편적인 측정에 그치기 때문에 OpenCV를 활용하여 생산품의 모양 및 바코드 등을 인식하여 생산량을 늘리는 시스템을 구축할 계획입니다.
 
 <br>
